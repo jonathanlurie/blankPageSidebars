@@ -1,0 +1,46 @@
+body{
+  margin:0;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+}
+
+
+#content{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  background-color: #115588;
+}
+
+
+
+#leftSidebar{
+  background-color: #885522;
+  position: absolute;
+  left: 0;
+}
+
+
+#rightSidebar{
+  background-color: #005566;
+  position: absolute;
+  right: 0;
+}
+
+
+#brainbrowser{
+  background-color: #991166;
+  position: relative;
+  width: 100%;
+  height: 100%;
+
+  z-index: 0;
+}
+
+.sidebar{
+  width: 300px;
+  height: 100%;
+  overflow: hidden;
+  z-index: 2;
+}
